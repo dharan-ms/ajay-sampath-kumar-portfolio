@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { about, expertise, profile, profileRows, skillGroups } from "../data";
+import { about, expertise, profile, profileRows } from "../data";
 import { Star } from "./Hero";
 
 export default function About({ found, onFind }) {
@@ -98,19 +98,6 @@ export default function About({ found, onFind }) {
             <h3>{item.title}</h3>
             <p>{item.text}</p>
           </article>
-        ))}
-      </div>
-
-      <div className="skills">
-        {skillGroups.map((group) => (
-          <div key={group.title}>
-            <h3>{group.title}</h3>
-            <ul>
-              {group.items.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </div>
         ))}
       </div>
     </section>

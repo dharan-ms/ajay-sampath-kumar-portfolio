@@ -81,46 +81,6 @@ export const expertise = [
   },
 ];
 
-export const skillGroups = [
-  {
-    title: "Entrepreneurship & Startup Ecosystem",
-    items: [
-      "Startup Acceleration",
-      "Incubation Programmes",
-      "Venture Development",
-      "Founder Engagement",
-      "Startup Ecosystem Management",
-      "Entrepreneurship Development",
-    ],
-  },
-  {
-    title: "Business & Operations",
-    items: [
-      "Business Development",
-      "Go-to-Market Strategy",
-      "Strategic Partnerships",
-      "Community Management",
-      "Customer Success",
-      "Sales Strategy",
-      "Event Management",
-      "Programme Execution",
-    ],
-  },
-  {
-    title: "Product & Technology",
-    items: [
-      "Product Development",
-      "Artificial Intelligence Applications",
-      "Internet of Things (IoT)",
-      "Python",
-      "Power BI",
-      "Pyramid Analytics",
-      "Business Intelligence",
-      "Generative AI",
-    ],
-  },
-];
-
 export const experience = [
   {
     id: "01",

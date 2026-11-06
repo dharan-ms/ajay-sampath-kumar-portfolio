@@ -47,7 +47,7 @@ export default function Experience() {
           <p className="cgpa">{education.note}</p>
         </div>
         <div className="certs">
-          <h3>Certifications</h3>
+          <h3>Cohorts Attended</h3>
           {certifications.map((item) => (
             <article className="cert" key={item.title}>
               <span>{item.year}</span>
